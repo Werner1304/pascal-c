@@ -4,13 +4,12 @@ import os
 
 
 SRC_DIR = "src"
+OUTPUT = "pascal.exe"
 
 if os.name == "nt":
     CC = "clang.exe"
-    OUTPUT = "pascal.exe"
 else:
     CC = "clang"
-    OUTPUT = "pascal"
 
 
 def get_c_files() -> list[str]:
