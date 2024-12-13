@@ -6,6 +6,8 @@
 
 ## Requirements
 
+*Only tested on Windows with Clang so far*
+
 + python
 + clang
 
