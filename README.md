@@ -23,4 +23,8 @@ python ./build.py build run
 
 ```
 
+## Debugging with LLDB
+
+On Windows:
++ set environment variable `LLDB_USE_NATIVE_PDB_READER = 1`
 
